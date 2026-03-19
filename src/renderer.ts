@@ -220,7 +220,7 @@ function renderPanel(
   ctx: CanvasRenderingContext2D,
   state: GameState,
   x: number, y: number,
-  w: number, h: number,
+  w: number, _h: number,
 ): void {
   const pad = 8;
   const cx = x + w / 2;
